@@ -1,0 +1,63 @@
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: "Courier", monospace;
+}
+
+.grid-item {
+    display: inline-block; 
+    text-align: center;
+}
+
+.grid-item-empty {
+    grid-area: empty;
+}
+
+.grid-item1 {
+    grid-area: header;
+}
+
+.grid-item2 {
+    grid-area: form;
+}
+
+.grid-item3 {
+    grid-area: results;
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-rows: 10vh auto auto auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    '. empty .'
+    '. header .'
+    '. form .'
+    '. results .';
+}
+
+input {
+    border-radius: 0;
+    box-shadow: none;
+    border: 2px solid;
+    border-color: black;
+}
+
+button {
+    margin: 10px;
+    border-radius: 0;
+    border: 1px solid;
+    padding: 2px 4px 2px 4px;
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}

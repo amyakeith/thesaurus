@@ -9,6 +9,7 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
+.firebaserc
 
 # Firebase config
 
@@ -66,4 +67,4 @@ node_modules/
 .env
 
 # json
-.json 
+*.json 

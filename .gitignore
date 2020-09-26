@@ -68,3 +68,8 @@ node_modules/
 
 # json
 *.json 
+
+# folders 
+/public
+
+

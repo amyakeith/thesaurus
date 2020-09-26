@@ -12,3 +12,15 @@ var firebaseConfig = {
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+function sendWebRequest(queryParameter)
+{
+
+}
+
+document.getElementById("search").addEventListener("click", function(event) 
+{
+    var searchValue = document.querySelector("#searchInput").value;
+
+
+});
